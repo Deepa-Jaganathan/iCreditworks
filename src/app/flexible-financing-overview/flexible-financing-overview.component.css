@@ -1,0 +1,23 @@
+.financing-title {
+    color: #ffffff;
+    font-size: 32px;
+}
+
+.financing-text{
+    color: #ffffff;
+    font-family: Neue Haas Grotesk Display;
+    font-weight: 450;
+    font-size: 18px;
+    letter-spacing: 0px;
+}
+
+@media (min-width: 730px) and (max-width: 1120px) {
+    .financing-title {
+        font-size: 22px;
+    }
+    
+    .financing-text{
+        font-size: 12px;
+    }
+  }
+

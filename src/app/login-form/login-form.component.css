@@ -1,0 +1,35 @@
+.form-field{
+    margin: 10px;
+}
+
+mat-form-field {
+    width: 100%;
+}
+
+.remember-password-link {
+    color: #486082;
+    font-family: NeueHaasGroteskDisplay-Regular;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.login-title {
+    font-family: NeueHaasGroteskDisplay-Medium;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.56;
+    text-align: center;
+    color: #333333;
+}
+.error-container {
+    background-color: rgba(255, 239, 239, 0.97);
+    border: solid 1px #bf0e0e;
+}
+
+.error-icon {
+    height: 30px;
+    width: 30px;
+    margin: 20px;
+}

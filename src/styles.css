@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+@import "@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "@fortawesome/fontawesome-free/scss/solid.scss";
+@import "@fortawesome/fontawesome-free/scss/regular.scss";
+
+.mdc-checkbox .mdc-checkbox__native-control:enabled:checked~.mdc-checkbox__background, .mdc-checkbox .mdc-checkbox__native-control:enabled:indeterminate~.mdc-checkbox__background, .mdc-checkbox .mdc-checkbox__native-control[data-indeterminate=true]:enabled~.mdc-checkbox__background {
+    border-color:  #d85f1e !important;
+    background-color:  #d85f1e !important;
+}
+
+.divider{
+    border-top: 3px solid #d85f1e;
+    margin: 5px 0 10px 0;
+    opacity: 1;
+}
+
+.btn {
+    border-radius: 0 !important;
+    padding: 8px 40px;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color:  #d85f1e !important;
+    border-color: #d85f1e !important;
+}

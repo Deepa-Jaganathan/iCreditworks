@@ -1,0 +1,65 @@
+.main-container {
+  height: 100vh;
+  overflow: hidden; 
+}
+
+.login {
+  width: 40%;
+}
+
+.finance {
+  width: 25%;
+}
+
+.desktop {
+  width: 55%;
+}
+ 
+.privacy-text {
+  background-color: #5e6b75;
+  font-family: NeueHaasGroteskDisplay-Regular;
+  font-size: 13px;
+  line-height: 1.38;
+  color: #ffffff;
+  padding: 4px;
+  .mat-icon {
+    height: 16px;
+    width: 18px;
+    margin: 2px 6px 0 0;
+  }
+  .material-icons {
+    font-size: 18px !important;
+  }
+}
+
+ .show-on-mobile {
+     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 0;
+  }
+
+  .chat-image {
+    height: 50px;
+    width: 50px;
+    margin: 25px;
+  }
+
+  @media (max-width: 768px) {
+    .hide-on-mobile {
+      display: none !important;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .show-on-mobile {
+      display: none !important;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .main-container {
+        background-image: url(https://assetsuat.icreditworks.com/public/providerportal/assets/images/loginBgNew.svg);
+    }
+  }
