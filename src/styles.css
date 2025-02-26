@@ -8,12 +8,6 @@
     background-color:  #d85f1e !important;
 }
 
-.divider{
-    border-top: 3px solid #d85f1e;
-    margin: 5px 0 10px 0;
-    opacity: 1;
-}
-
 .btn {
     border-radius: 0 !important;
     padding: 8px 40px;
@@ -22,4 +16,10 @@
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
     background-color:  #d85f1e !important;
     border-color: #d85f1e !important;
+}
+
+.divider{
+    border-top: 3px solid #d85f1e;
+    margin: 5px 0 10px 0;
+    opacity: 1;
 }
